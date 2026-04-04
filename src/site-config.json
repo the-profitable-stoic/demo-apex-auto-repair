@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Apex Auto Repair",
+    "phone": "555-aut-r92",
+    "category": "auto-repair",
+    "city": "Memphis",
+    "state": "TN"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-repair-red-charge",
+      "categoryGroup": "auto-repair",
+      "name": "Red Charge",
+      "recipeFile": "auto-repair/red-charge.astro",
+      "colors": {
+        "primary": "#EF4444",
+        "primaryDark": "#991B1B",
+        "primaryLight": "#fbd0d0",
+        "secondary": "#d73d3d",
+        "accent": "#1F2937",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#EF4444",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "auto-repair/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Honest Auto Repair in Memphis",
+      "heroSubline": "We fix cars right the first time, with no hidden costs. Serving Memphis drivers since 2012.",
+      "aboutTitle": "Why Choose Apex Auto Repair",
+      "aboutText": [
+        "Founded in 2012, Apex Auto Repair started as a small shop in Midtown Memphis. Our team grew by focusing on clear communication and fair pricing, earning trust across Shelby County.",
+        "We approach every repair with diagnostic precision. Before recommending work, we show you the issue and explain options. No upsells, just what your vehicle actually needs.",
+        "Memphis roads and weather take a toll on cars. We're committed to keeping local vehicles safe, whether it's a Beale Street cruiser or a family SUV in Germantown."
+      ],
+      "valueProps": [
+        {
+          "title": "No Guesswork",
+          "description": "We diagnose issues with modern scanners before making recommendations, so you pay only for necessary repairs."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "Get a detailed estimate before we turn a wrench. No surprises when you pick up your vehicle."
+        },
+        {
+          "title": "Local Parts Network",
+          "description": "Our relationships with Memphis-area suppliers mean quality parts without long waits or inflated costs."
+        },
+        {
+          "title": "Loaner Cars",
+          "description": "Need wheels while we work? Ask about our free loaner vehicles for qualifying repairs."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Repair Today",
+      "ctaSubline": "Call 555-AUT-R92 for same-day diagnostics. Open Monday-Saturday."
+    },
+    "services": [
+      {
+        "slug": "brake-repair",
+        "name": "Brake Repair",
+        "shortDescription": "Reliable brake inspections and repairs for Memphis stop-and-go traffic.",
+        "description": "Memphis drivers know the wear of constant braking on Poplar Avenue or I-240. We test brake pads, rotors, calipers and fluid with road conditions in mind.\n\nOur process starts with measuring pad thickness and checking for uneven wear. Warped rotors common in Tennessee's humid climate get resurfaced or replaced. We bleed systems to remove moisture that corrodes components.\n\nExpect a written report with photos showing your brake condition. We only recommend replacements when safety is compromised, never just for upsells. All work includes a 12-month warranty.",
+        "process": [
+          "Step 1: Road test to assess pedal feel and noises",
+          "Step 2: Measure pad thickness and rotor wear",
+          "Step 3: Inspect calipers and brake lines for leaks",
+          "Step 4: Perform repairs or recommend replacements"
+        ],
+        "benefits": [
+          "Quieter stops with properly bedded pads",
+          "Even braking pressure across all wheels",
+          "Reduced risk of fluid boiling in summer heat",
+          "Longer component life with proper servicing"
+        ],
+        "faq": [
+          {
+            "question": "How often should Memphis drivers replace brake pads?",
+            "answer": "Every 30,000-50,000 miles depending on your commute. Downtown stop-and-go traffic wears pads faster than highway driving."
+          },
+          {
+            "question": "Can you resurface rotors instead of replacing them?",
+            "answer": "Yes, if they meet minimum thickness specs. We measure precisely before recommending either option."
+          }
+        ]
+      },
+      {
+        "slug": "ac-repair",
+        "name": "AC Repair",
+        "shortDescription": "Cooling system repairs for Memphis' humid summers.",
+        "description": "When your AC blows warm air on a 95-degree Memphis afternoon, we find the cause fast. Our technicians check refrigerant levels, compressors, condensers and electrical components.\n\nTennessee humidity accelerates corrosion in AC systems. We pressure-test for leaks and inspect condenser fins for damage from road debris. Recharges include UV dye to pinpoint future leaks.\n\nFor older vehicles, we often recommend upgrading to R134a refrigerant if still using R12. This improves cooling efficiency and avoids obsolete refrigerant costs. All repairs come with a summer-ready guarantee through September.",
+        "process": [
+          "Step 1: Performance test with manifold gauges",
+          "Step 2: Inspect compressor clutch and electrical connections",
+          "Step 3: Check condenser and evaporator for leaks",
+          "Step 4: Recharge system with precise refrigerant amounts"
+        ],
+        "benefits": [
+          "Faster cooldown in summer traffic",
+          "Lower humidity inside cabin",
+          "Reduced strain on engine",
+          "Prevents compressor damage"
+        ],
+        "faq": [
+          {
+            "question": "Why does my AC work sometimes but not others?",
+            "answer": "This often indicates a failing compressor clutch or electrical issue. We test these components under load to diagnose intermittent problems."
+          },
+          {
+            "question": "How long does an AC recharge last?",
+            "answer": "Properly sealed systems should last 2-3 years. If it leaks out sooner, we'll find the source under warranty."
+          }
+        ]
+      },
+      {
+        "slug": "transmission-service",
+        "name": "Transmission Service",
+        "shortDescription": "Fluid changes and repairs to keep your transmission shifting smoothly.",
+        "description": "Memphis' mix of highway driving and city traffic demands reliable transmissions. We perform fluid exchanges using manufacturer-approved fluids and filters.\n\nFor problematic transmissions, our diagnostic scanners read manufacturer-specific trouble codes that generic readers miss. We check solenoid operation, fluid condition, and torque converter function before recommending rebuilds.\n\nSevere service intervals apply for most Memphis drivers due to heat and traffic. We recommend fluid changes every 30,000 miles for automatic transmissions, sooner if you tow or haul heavy loads.",
+        "process": [
+          "Step 1: Scan for diagnostic trouble codes",
+          "Step 2: Check fluid level and condition",
+          "Step 3: Test shift solenoids and pressure",
+          "Step 4: Perform flush or recommend repairs"
+        ],
+        "benefits": [
+          "Smoother gear transitions",
+          "Extended transmission lifespan",
+          "Improved fuel efficiency",
+          "Reduced overheating risk"
+        ],
+        "faq": [
+          {
+            "question": "Should I flush or drain my transmission fluid?",
+            "answer": "Flushes clean the entire system but aren't suitable for neglected transmissions. We assess contamination levels first."
+          },
+          {
+            "question": "What causes hard shifting in Memphis heat?",
+            "answer": "Old fluid loses viscosity when hot. We test for this and check for sticking valves in the valve body."
+          }
+        ]
+      },
+      {
+        "slug": "suspension-repair",
+        "name": "Suspension Repair",
+        "shortDescription": "Shock, strut, and alignment services for Memphis roads.",
+        "description": "Potholes on Summer Avenue and uneven bridge transitions wear out suspension components faster. We inspect shocks, struts, control arms and bushings for Memphis-specific wear patterns.\n\nOur alignment machine accounts for Tennessee's crowned roads and railroad crossings. We adjust to manufacturer specs unless you prefer slight modifications for better handling.\n\nCommon repairs include ball joints damaged by potholes and struts leaking after years of thermal cycling. We use corrosion-resistant hardware to combat road salt from occasional winter storms.",
+        "process": [
+          "Step 1: Road test to identify noises or handling issues",
+          "Step 2: Lift inspection of all suspension components",
+          "Step 3: Measure wheel alignment angles",
+          "Step 4: Replace worn parts and verify repair effectiveness"
+        ],
+        "benefits": [
+          "Tighter steering response",
+          "Reduced tire wear",
+          "Improved ride comfort",
+          "Better control in wet conditions"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my shocks need replacing?",
+            "answer": "Look for excessive bouncing after bumps or fluid leaks. Memphis potholes often accelerate wear."
+          },
+          {
+            "question": "Why does my car pull after hitting a pothole?",
+            "Answer": "This likely indicates bent suspension components or misalignment. We check for both."
+          }
+        ]
+      },
+      {
+        "slug": "battery-service",
+        "name": "Battery Service",
+        "shortDescription": "Battery testing and replacements for Tennessee's temperature swings.",
+        "description": "Memphis' hot summers and occasional freezing winters strain car batteries. We load-test batteries to measure real capacity, not just voltage. This catches weak batteries before they strand you.\n\nFor replacements, we install batteries with higher cold-cranking amps (CCA) than minimum requirements. This provides extra margin for winter starts. All installations include terminal cleaning and corrosion treatment.\n\nElectrical system testing comes standard. We check alternator output and parasitic draws that drain batteries prematurely. Many late-model vehicles need computer resets after battery changes - we handle these protocols properly.",
+        "process": [
+          "Step 1: Load test battery under simulated conditions",
+          "Step 2: Check charging system voltage and ripple",
+          "Step 3: Test for parasitic draws when vehicle is off",
+          "Step 4: Install new battery with proper registration if needed"
+        ],
+        "benefits": [
+          "Reliable starts in all seasons",
+          "Properly sized battery for your vehicle",
+          "Clean connections that resist corrosion",
+          "Correct computer adaptation after replacement"
+        ],
+        "faq": [
+          {
+            "question": "How long do car batteries last in Memphis?",
+            "answer": "Typically 3-4 years due to heat accelerating internal corrosion. We see more failures in July and January."
+          },
+          {
+            "question": "Can a bad alternator kill a new battery?",
+            "answer": "Yes. That's why we always test the charging system during battery service."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James W.",
+        "rating": 5,
+        "service": "Brake Repair",
+        "text": "The team at Apex fixed my squealing brakes on a 2017 F-150. They showed me the worn pads and explained why the rotors needed resurfacing. Final price matched the estimate exactly. My truck stops smoothly now, even pulling a boat out of Shelby Forest.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Latasha R.",
+        "rating": 5,
+        "service": "AC Repair",
+        "text": "After my AC quit on I-40 near the stadium exit, Apex diagnosed a failed compressor clutch same-day. They had the part by noon next day and didn't push unnecessary services. Cool air works better than when I bought my Civic used.",
+        "date": "2025-04-22"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Transmission Service",
+        "text": "My Silverado started slipping gears between Germantown and downtown. Apex found the transmission fluid was burned from towing in summer heat. Fluid change and cooler line flush fixed it for half what the dealer wanted.",
+        "date": "2025-02-08"
+      },
+      {
+        "name": "Diane K.",
+        "rating": 5,
+        "service": "Battery Service",
+        "text": "When my Subaru wouldn't start after that cold snap in January, Apex tested the battery properly instead of just replacing it. Turned out to be a bad starter connection they fixed for minimal cost. Honest work.",
+        "date": "2025-01-17"
+      },
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Suspension Repair",
+        "text": "They aligned my Challenger after I hit a pothole on Winchester Rd. Not only fixed the pull but explained how Memphis roads affect camber settings. Threw in a free tire rotation too.",
+        "date": "2025-05-03"
+      },
+      {
+        "name": "Elena S.",
+        "rating": 5,
+        "service": "AC Repair",
+        "text": "The guys at Apex recharged my minibus' AC before our family road trip. They found a slow leak at the condenser and fixed it properly instead of just topping off. Kids stayed cool all the way to Nashville.",
+        "date": "2025-06-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Memphis Auto Repair | Apex Auto Repair | 555-AUT-R92",
+        "description": "Honest auto repair in Memphis since 2012. Brakes, AC, transmissions and more. Upfront pricing and quality workmanship."
+      },
+      "about": {
+        "title": "About Apex Auto Repair | Memphis Mechanic",
+        "description": "Learn why Memphis drivers trust Apex Auto Repair for straightforward service since 2012. Meet our team and approach."
+      },
+      "services": {
+        "title": "Auto Repair Services in Memphis | Apex Auto",
+        "description": "Complete auto repair services for Memphis vehicles. Brakes, AC, batteries, suspension and transmission repairs."
+      },
+      "contact": {
+        "title": "Contact Apex Auto Repair | Memphis TN",
+        "description": "Schedule your auto repair in Memphis. Call 555-AUT-R92 or visit our shop near I-240 and Poplar."
+      },
+      "reviews": {
+        "title": "Apex Auto Repair Reviews | Memphis TN",
+        "description": "See what Memphis drivers say about their experiences with Apex Auto Repair's honest service."
+      },
+      "service-areas": {
+        "title": "Auto Repair Service Areas | Memphis TN",
+        "description": "Apex Auto Repair serves Memphis and surrounding Tennessee communities with quality auto service."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Memphis",
+        "slug": "memphis-tn",
+        "state": "TN",
+        "content": "Apex Auto Repair is proud to serve the vibrant city of Memphis, TN. Whether you're driving through downtown or commuting to work, our expert technicians are here to keep your vehicle running smoothly. We specialize in everything from routine maintenance to complex repairs, ensuring your car stays reliable on the road.\n\nMemphis is known for its rich musical heritage and bustling streets, which means your vehicle needs to be in top condition. From brake repairs to engine diagnostics, our team uses the latest tools and technology to provide top-notch service. Trust Apex Auto Repair to get you back on the road quickly and safely.",
+        "localContext": "Memphis is a major cultural hub with heavy traffic and diverse driving conditions.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Germantown",
+          "Collierville"
+        ]
+      },
+      {
+        "city": "Bartlett",
+        "slug": "bartlett-tn",
+        "state": "TN",
+        "content": "Apex Auto Repair is your trusted auto service provider in Bartlett, TN. Our skilled technicians are dedicated to delivering high-quality repairs and maintenance for all makes and models. Whether you need an oil change, tire rotation, or more extensive repairs, we’ve got you covered.\n\nBartlett’s suburban charm means many residents rely on their vehicles for daily commutes and errands. We understand the importance of keeping your car in peak condition, and we offer convenient services to fit your busy schedule. Visit Apex Auto Repair for reliable and efficient auto care.",
+        "localContext": "Bartlett is a family-friendly suburb with a strong sense of community.",
+        "nearbyAreas": [
+          "Memphis",
+          "Lakeland",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Germantown",
+        "slug": "germantown-tn",
+        "state": "TN",
+        "content": "At Apex Auto Repair, we’re committed to serving the residents of Germantown, TN, with exceptional auto repair services. Our team of certified technicians provides everything from routine maintenance to advanced diagnostics and repairs. We pride ourselves on our attention to detail and customer-focused approach.\n\nGermantown’s well-maintained roads and scenic drives require vehicles to be in excellent condition. Whether you’re heading to work or exploring the area, our services ensure your car performs at its best. Trust Apex Auto Repair for all your automotive needs in Germantown.",
+        "localContext": "Germantown is known for its upscale neighborhoods and excellent schools.",
+        "nearbyAreas": [
+          "Memphis",
+          "Collierville",
+          "Bartlett"
+        ]
+      },
+      {
+        "city": "Collierville",
+        "slug": "collierville-tn",
+        "state": "TN",
+        "content": "Apex Auto Repair is proud to be Collierville, TN’s go-to auto repair shop. Our experienced technicians provide comprehensive services, including brake repairs, engine diagnostics, and preventative maintenance. We use state-of-the-art equipment to ensure your vehicle receives the best care possible.\n\nCollierville’s historic charm and growing community mean reliable transportation is essential. Whether you’re commuting to Memphis or running local errands, our team is here to keep your car running smoothly. Visit Apex Auto Repair for dependable and professional service.",
+        "localContext": "Collierville combines historic charm with modern amenities.",
+        "nearbyAreas": [
+          "Germantown",
+          "Memphis",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tn",
+        "state": "TN",
+        "content": "Apex Auto Repair is dedicated to serving the automotive needs of Arlington, TN. Our skilled technicians offer a wide range of services, from oil changes to transmission repairs. We understand how important your vehicle is to your daily life, and we strive to provide fast, reliable service.\n\nArlington’s rural and suburban mix means residents often rely on their vehicles for long commutes. Our team is here to ensure your car is safe and reliable, no matter where the road takes you. Trust Apex Auto Repair for all your auto care needs.",
+        "localContext": "Arlington offers a peaceful, small-town atmosphere with easy access to Memphis.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Lakeland",
+          "Collierville"
+        ]
+      },
+      {
+        "city": "Lakeland",
+        "slug": "lakeland-tn",
+        "state": "TN",
+        "content": "Apex Auto Repair is proud to serve the Lakeland, TN community with top-tier auto repair services. Our team of experts provides everything from routine maintenance to complex repairs, ensuring your vehicle stays in peak condition. We prioritize customer satisfaction and quality workmanship.\n\nLakeland’s scenic lakes and quiet neighborhoods make it a great place to live and drive. Whether you’re commuting to Memphis or enjoying local attractions, our services keep your car running smoothly. Visit Apex Auto Repair for dependable and professional auto care.",
+        "localContext": "Lakeland is known for its beautiful lakes and relaxed lifestyle.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Arlington",
+          "Germantown"
+        ]
+      },
+      {
+        "city": "Millington",
+        "slug": "millington-tn",
+        "state": "TN",
+        "content": "Apex Auto Repair is your trusted auto service provider in Millington, TN. Our experienced technicians offer a full range of services, including brake repairs, engine diagnostics, and more. We’re committed to keeping your vehicle safe and reliable for all your driving needs.\n\nMillington’s proximity to naval and military facilities means many residents rely on their vehicles for daily commutes. Our team understands the importance of timely and efficient service. Trust Apex Auto Repair to get you back on the road quickly and safely.",
+        "localContext": "Millington is home to naval and military facilities, with a strong sense of community.",
+        "nearbyAreas": [
+          "Memphis",
+          "Bartlett",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Cordova",
+        "slug": "cordova-tn",
+        "state": "TN",
+        "content": "Apex Auto Repair is proud to serve the Cordova, TN area with exceptional auto repair services. Our certified technicians provide everything from routine maintenance to advanced diagnostics and repairs. We pride ourselves on our attention to detail and customer-focused approach.\n\nCordova’s mix of residential and commercial areas means reliable transportation is key. Whether you’re heading to work or running errands, our services ensure your car performs at its best. Trust Apex Auto Repair for all your automotive needs in Cordova.",
+        "localContext": "Cordova is a bustling suburb with a mix of residential and commercial spaces.",
+        "nearbyAreas": [
+          "Memphis",
+          "Bartlett",
+          "Germantown"
+        ]
+      },
+      {
+        "city": "Olive Branch",
+        "slug": "olive-branch-ms",
+        "state": "MS",
+        "content": "Apex Auto Repair extends its services to Olive Branch, MS, providing top-quality auto repair and maintenance. Our skilled technicians are equipped to handle all types of vehicles, ensuring your car stays in excellent condition. From oil changes to major repairs, we’ve got you covered.\n\nOlive Branch’s growing community and proximity to Memphis make it a popular place for commuters. We understand the importance of reliable transportation and offer convenient services to fit your schedule. Visit Apex Auto Repair for dependable and professional auto care.",
+        "localContext": "Olive Branch is a fast-growing city with easy access to Memphis.",
+        "nearbyAreas": [
+          "Memphis",
+          "Southaven",
+          "Hernando"
+        ]
+      },
+      {
+        "city": "Southaven",
+        "slug": "southaven-ms",
+        "state": "MS",
+        "content": "Apex Auto Repair is proud to serve Southaven, MS, with reliable and efficient auto repair services. Our team of certified technicians provides comprehensive care for your vehicle, from routine maintenance to complex repairs. We use the latest tools and technology to ensure top-notch service.\n\nSouthaven’s proximity to Memphis means many residents commute daily, requiring dependable vehicles. Our services are designed to keep your car running smoothly and safely. Trust Apex Auto Repair for all your automotive needs in Southaven.",
+        "localContext": "Southaven is a bustling suburb with a strong connection to Memphis.",
+        "nearbyAreas": [
+          "Memphis",
+          "Olive Branch",
+          "Horn Lake"
+        ]
+      },
+      {
+        "city": "Hernando",
+        "slug": "hernando-ms",
+        "state": "MS",
+        "content": "Apex Auto Repair is your trusted auto service provider in Hernando, MS. Our experienced technicians offer a wide range of services, including brake repairs, engine diagnostics, and more. We’re committed to keeping your vehicle safe and reliable for all your driving needs.\n\nHernando’s small-town charm and proximity to Memphis make it a great place to live and drive. Whether you’re commuting or exploring the area, our team is here to ensure your car is in top condition. Visit Apex Auto Repair for dependable and professional auto care.",
+        "localContext": "Hernando offers a quaint, historic atmosphere with easy access to Memphis.",
+        "nearbyAreas": [
+          "Olive Branch",
+          "Southaven",
+          "Memphis"
+        ]
+      },
+      {
+        "city": "Horn Lake",
+        "slug": "horn-lake-ms",
+        "state": "MS",
+        "content": "Apex Auto Repair is proud to serve Horn Lake, MS, with top-tier auto repair services. Our team of experts provides everything from routine maintenance to complex repairs, ensuring your vehicle stays in peak condition. We prioritize customer satisfaction and quality workmanship.\n\nHorn Lake’s close-knit community and proximity to Memphis mean reliable transportation is essential. Whether you’re commuting or running local errands, our services keep your car running smoothly. Trust Apex Auto Repair for all your auto care needs in Horn Lake.",
+        "localContext": "Horn Lake is a friendly community with easy access to Memphis.",
+        "nearbyAreas": [
+          "Southaven",
+          "Memphis",
+          "Olive Branch"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "brake-repair": "/images/service-brake-repair.webp",
+      "ac-repair": "/images/service-ac-repair.webp",
+      "transmission-service": "/images/service-transmission-service.webp",
+      "suspension-repair": "/images/service-suspension-repair.webp",
+      "battery-service": "/images/service-battery-service.webp"
+    },
+    "servicesResponsive": {
+      "brake-repair": {
+        "src": "/images/service-brake-repair.webp",
+        "srcset": "/images/service-brake-repair-400w.webp 400w, /images/service-brake-repair-800w.webp 800w, /images/service-brake-repair-1200w.webp 1200w, /images/service-brake-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ac-repair": {
+        "src": "/images/service-ac-repair.webp",
+        "srcset": "/images/service-ac-repair-400w.webp 400w, /images/service-ac-repair-800w.webp 800w, /images/service-ac-repair-1200w.webp 1200w, /images/service-ac-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "transmission-service": {
+        "src": "/images/service-transmission-service.webp",
+        "srcset": "/images/service-transmission-service-400w.webp 400w, /images/service-transmission-service-800w.webp 800w, /images/service-transmission-service-1200w.webp 1200w, /images/service-transmission-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "suspension-repair": {
+        "src": "/images/service-suspension-repair.webp",
+        "srcset": "/images/service-suspension-repair-400w.webp 400w, /images/service-suspension-repair-800w.webp 800w, /images/service-suspension-repair-1200w.webp 1200w, /images/service-suspension-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "battery-service": {
+        "src": "/images/service-battery-service.webp",
+        "srcset": "/images/service-battery-service-400w.webp 400w, /images/service-battery-service-800w.webp 800w, /images/service-battery-service-1200w.webp 1200w, /images/service-battery-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
